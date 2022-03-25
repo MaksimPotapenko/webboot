@@ -16,7 +16,7 @@
         <h1>Список обуви</h1>
         <select name="listboots" multiple="true">
             <c:forEach var="sneaker" items="${sneakers}">
-                <option value="${book.id}">${sneaker.SneakerModel}. ${sneaker.SneakerSize}. 
+                <option value="${sneaker.id}">${sneaker.SneakerModel}. ${sneaker.SneakerSize}. 
                 </option>
             </c:forEach>
         </select>
